@@ -1,0 +1,23 @@
+export const SITE = {
+  website: "https://china-import-blog.pages.dev/",
+  author: "じゅんちゃん",
+  profile: "https://china-import-blog.pages.dev/",
+  desc: "3ヶ月目で売上5万円。会社に頼らない働き方を、中国輸入せどりで作る実践記録。",
+  title: "会社に依存しないじゅんちゃんの中国輸入ノート",
+  ogImage: "astropaper-og.jpg",
+  lightAndDarkMode: true,
+  postPerIndex: 4,
+  postPerPage: 4,
+  scheduledPostMargin: 15 * 60 * 1000,
+  showArchives: true,
+  showBackButton: true,
+  editPost: {
+    enabled: false,
+    text: "Edit page",
+    url: "",
+  },
+  dynamicOgImage: true,
+  dir: "ltr",
+  lang: "ja",
+  timezone: "Asia/Tokyo",
+} as const;
